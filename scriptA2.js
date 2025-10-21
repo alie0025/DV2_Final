@@ -592,7 +592,7 @@ vegaEmbed("#section4-viz", {
           "legend": {"title": "Continent"},
           "scale": {
             "domain": ["Asia","Europe","Africa","North America","South America","Oceania"],
-            "range": ["#e41a1c","#a65628","#ff7f00","#4daf4a","#984ea3","#377eb8"]
+            "range": ["#e41a1c","#a65628","#ff7f00","#ecef5cff","#984ea3","#377eb8"]
           }
         },
         "opacity": {
