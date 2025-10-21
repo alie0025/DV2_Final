@@ -319,7 +319,7 @@ vegaEmbed("#section2-viz", {
 
 vegaEmbed("#section3-viz", {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A compact radar chart showing climate metrics for Australia_scaled and Global_scaled.",
+  "description": "A compact radar chart showing climate metrics for Australia and Global.",
   "width": 400,          // Increased from 300
   "height": 300,         // Increased from 250
   "padding": {"left": 80, "top": 50, "bottom": 10, "right": 45}, // Adjusted padding
@@ -403,7 +403,7 @@ vegaEmbed("#section3-viz", {
               "strokeWidth": {"value": 1.5},
               "fill": {"scale": "color", "field": "category"},
               "fillOpacity": {"value": 0.1},
-              "tooltip": {"signal": "{'Metric': datum.Metric, 'Value': datum.Value, 'Country': datum.category}"}
+              "tooltip": {"signal": "{'Metric': datum.Metric, 'Value': format(datum.Value, '.2f'), 'Country': replace(datum.category, '_scaled', '')}"}
             }
           }
         }
