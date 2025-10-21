@@ -13,6 +13,7 @@ const embedOpt = {
   }
 };
 
+
 const section1MapSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "params": [
