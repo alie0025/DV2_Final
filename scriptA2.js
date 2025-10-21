@@ -1,4 +1,17 @@
-const embedOpt = { renderer: "svg" };
+const embedOpt = {
+  renderer: "svg",
+  config: {
+    background: "transparent",
+    axis: { labelFont: "Lato", titleFont: "Lato", labelFontSize: 9, titleFontSize: 10, labelColor: "#333", titleColor: "#333" },
+    legend: { labelFont: "Lato", titleFont: "Lato", labelFontSize: 9, titleFontSize: 10, labelColor: "#333", titleColor: "#333" },
+    title: { font: "Lato", fontSize: 16, color: "#333" },
+    style: {
+      "guide-label": { font: "Lato" },
+      "guide-title": { font: "Lato" },
+      "tooltip": { labelFont: "Lato", titleFont: "Lato", labelFontSize: 13, titleFontSize: 13 }
+    }
+  }
+};
 
 const section1MapSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
