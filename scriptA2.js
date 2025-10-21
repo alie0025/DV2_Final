@@ -1049,7 +1049,7 @@ const koalaMapSpec = {
         "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/fire_dataset.csv",
         "format": {"type": "csv"}
       },
-      "mark": {"type": "circle", "opacity": 0.3, "size": 10},
+      "mark": {"type": "circle", "opacity": 0.8, "size": 10},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
