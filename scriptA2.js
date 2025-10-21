@@ -1015,7 +1015,7 @@ const koalaMapSpec = {
 //       "transform": [
 //         {"filter": "datum.properties['name'] != 'Australian Capital Territory'"}
 //       ],
-//       "mark": {"type": "text", "fontSize": 10},
+//       "mark": {"type": "text", "fontSize": 13},
 //       "encoding": {
 //         "longitude": {"field": "properties.longitude", "type": "quantitative"},
 //         "latitude": {"field": "properties.latitude", "type": "quantitative"},
@@ -1031,7 +1031,7 @@ const koalaMapSpec = {
     "mark": {"type": "geoshape"},
     "encoding": {
       "color": {"value": "#17801cff"},
-      "opacity": {"value": 0.7},
+      "opacity": {"value": 0.5},
        "legend": {
         "title": null,
         "orient": "right",
@@ -1049,7 +1049,7 @@ const koalaMapSpec = {
         "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/fire_dataset.csv",
         "format": {"type": "csv"}
       },
-      "mark": {"type": "circle", "opacity": 0.5, "size": 10},
+      "mark": {"type": "circle", "opacity": 0.3, "size": 10},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
