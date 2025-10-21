@@ -1082,14 +1082,15 @@ const koalaMapSpec = {
 vegaEmbed("#section6-map", koalaMapSpec, embedOpt);
 
 
+
 vegaEmbed("#section7-viz", {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Two separate bar charts for Endangered and Vulnerable species, filterable by taxonomic group.",
   "data": {"url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/filtered_fire_impact3.csv"},
   "height": 450,
+   "autosize": {"type": "fit", "contains": "padding"},
   "background": "transparent",
 
-  // 👇 Filter dropdown (shared across both charts)
   "params": [
     {
       "name": "groupSelector",
@@ -1104,6 +1105,7 @@ vegaEmbed("#section7-viz", {
 
   "hconcat": [
     {
+      "height": 300,
       "width": 150, 
       "transform": [
         {"filter": "datum['Taxonomic group'] == groupSelector"},
@@ -1150,7 +1152,8 @@ vegaEmbed("#section7-viz", {
       }
     },
     {
-      width : 150,
+      "height": 300,
+      "width" : 150,
       "transform": [
         {"filter": "datum['Taxonomic group'] == groupSelector"},
         {"filter": "datum['Threat status'] == 'Vulnerable'"},
@@ -1197,6 +1200,7 @@ vegaEmbed("#section7-viz", {
     }
   ],
 
+  "resolve": {"scale": {"y": "independent"}},
   "config": {
     "axis": {"labelColor": "#333", "titleColor": "#333"},
     "legend": {
