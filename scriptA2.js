@@ -983,7 +983,7 @@ const koalaMapSpec = {
 },
 // {
 //   "data": {
-//     "url": "data/ne_10m_admin_1_states_provinces.json",
+//     "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/ne_10m_admin_1_states_provinces.json",
 //     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
 //   },
 //   "transform": [{"filter": "datum.properties.admin == 'Australia'"}],
@@ -995,7 +995,7 @@ const koalaMapSpec = {
 
 //  {
 //       "data": {
-//         "url": "data/ne_10m_admin_1_states_provinces.json",
+//         "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/ne_10m_admin_1_states_provinces.json",
 //         "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
 //       },
 //       "transform": [
@@ -1011,7 +1011,7 @@ const koalaMapSpec = {
 //     },
   {
     "data": {
-      "url": "data/koala_habitat_core.json",
+      "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/koala_habitat_core.json",
       "format": {"type": "topojson", "feature": "koala_habitat_core"}
     },
     "mark": {"type": "geoshape"},
@@ -1032,7 +1032,7 @@ const koalaMapSpec = {
      /* --- Bushfire hotspot points --- */
     {
       "data": {
-        "url": "data/fire_dataset.csv",
+        "url": "https://raw.githubusercontent.com/alie0025/DV2_Final/refs/heads/main/fire_dataset.csv",
         "format": {"type": "csv"}
       },
       "mark": {"type": "circle", "opacity": 0.5, "size": 10},
