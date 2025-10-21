@@ -8,6 +8,7 @@ const section1MapSpec = {
       {"events": "click", "update": "datum && datum.Entity ? datum.Entity : selectedEntity"},
       {"events": "dblclick", "update": "null"}
     ]}
+    
   ],
   "background": "transparent",
   //"title": {"text": "Global Temperature Anomalies (1940–2025) relative to the 1991-2020 baseline", "anchor": "start", "fontSize": 18, "offset": 8},
