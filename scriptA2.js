@@ -258,7 +258,7 @@ vegaEmbed("#section2-viz", {
             "dy": -90,
             "dx": 10,
             "fontSize": 9,
-            "fontStyle": "italic",
+            "fontStyle": "lato",
             "lineBreak": "\n",
             "lineHeight": 14
           },
@@ -295,7 +295,7 @@ vegaEmbed("#section2-viz", {
             "dy": -90,
             "dx": 10,
             "fontSize": 9,
-            "fontStyle": "italic",
+            "fontStyle": "lato",
             "lineBreak": "\n",
             "lineHeight": 14
           },
@@ -648,7 +648,7 @@ vegaEmbed("#section4-viz", {
     //     {"window": [{"op": "rank", "as": "impactRank"}], "sort": [{"field": "total_economic_impact_million_usd", "order": "descending"}]},
     //     {"filter": "datum.impactRank <= 5"}
     //   ],
-    //   "mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -10, "fontSize": 12, "fontStyle": "italic"},
+    //   "mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -10, "fontSize": 12, "fontStyle": "lato"},
     //   "encoding": {
     //     "x": {"field": "avg_severity", "type": "quantitative"},
     //     "y": {"field": "total_economic_impact_million_usd", "type": "quantitative"},
@@ -685,7 +685,7 @@ vegaEmbed("#section4-viz", {
             "dy": -90, // Increased space from -5 to -15
             "dx": 50,
             "fontSize": 8,
-            "fontStyle": "italic",
+            "fontStyle": "lato",
             "lineBreak": "\n",      // ← enables \n line breaks
              "lineHeight": 14 
           },
@@ -728,7 +728,7 @@ vegaEmbed("#section4-viz", {
             "dy": -90, // Increased space for multi-line text
             "dx":-200,
             "fontSize": 8,
-            "fontStyle": "italic",
+            "fontStyle": "lato",
             "lineBreak": "\n",      // ← enables \n line breaks
             "lineHeight": 14 
           },
@@ -770,7 +770,7 @@ vegaEmbed("#section4-viz", {
             "dy": -120, // Increased space for multi-line text
             "dx": -50,
             "fontSize": 8,
-            "fontStyle": "italic",
+            "fontStyle": "lato",
             "lineBreak": "\n",      // ← enables \n line breaks
             "lineHeight": 14 
           },
